@@ -4,3 +4,10 @@
   <h3>(Nowhere near as good as Death's)</h3>
   <h3><a href="https://discord.gg/blacket">Blacket Discord</a></h3>
 </div>
+
+</details>
+<details>
+<summary align="center"><h2>Scripts</h2></summary>
+
+### [Global](global/)
+ * [Unblock Console](global/UnblockConsole.js) // Prevents the "heartbeat" system log from clogging up the console.<br>
