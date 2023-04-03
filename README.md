@@ -10,4 +10,4 @@
 <summary align="center"><h2>Scripts</h2></summary>
 
 ### [Global](Global/)
- * [Unblock Console](Global/UnblockConsole.js) // Prevents the "heartbeat" system log from clogging up the console.<br>
+ * [Unblock Console](Global/UnblockConsole.js) // Prevents heartbeats and system logs in the console from taking up space.<br>
