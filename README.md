@@ -9,5 +9,5 @@
 <details>
 <summary align="center"><h2>Scripts</h2></summary>
 
-### [Global](global/)
- * [Unblock Console](global/UnblockConsole.js) // Prevents the "heartbeat" system log from clogging up the console.<br>
+### [Global](Global/)
+ * [Unblock Console](Global/UnblockConsole.js) // Prevents the "heartbeat" system log from clogging up the console.<br>
