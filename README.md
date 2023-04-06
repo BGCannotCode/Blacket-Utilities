@@ -13,3 +13,4 @@
  * [Unblock Console](Global/UnblockConsole.js) // Prevents heartbeats and system logs in the console from taking up space.<br>
  * [Rainbow Theme](Global/RainbowTheme.js) // Turns everything onto the page into a different random color.<br>
  * [Ben Stewart Images](Global/BenStewartImages.js) // Changes every image on a page to an image of Ben Stewart's face.<br>
+ * [Missing Blooks](Global/MissingBlooks.js) // Displays in console all the Blooks your account is missing.<br>
