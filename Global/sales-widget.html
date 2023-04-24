@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Widget</title>
+</head>
+<body>
+    <h1>Sales: <span id="salesValue"></span></h1>
+
+    <!-- Add any other HTML elements for your widget design -->
+
+    <script>
+        // JavaScript code to update sales value
+        function updateSales(sales) {
+            document.getElementById("salesValue").textContent = sales.toLocaleString();
+        }
+
+        // Fetch data from xotic.org
+        fetch('https://xotic.org/your-api-endpoint', { // Replace 'your-api-endpoint' with the actual API endpoint to retrieve data from xotic.org
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Basic ' + btoa('your-username:your-password') // Replace 'your-username' and 'your-password' with your actual username and password for xotic.org
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Update sales value
+            updateSales(data.websites.blacket.purchases);
+        })
+        .catch(error => console.error('Error fetching sales data:', error));
+    </script>
+</body>
+</html>
