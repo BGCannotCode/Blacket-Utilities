@@ -1,5 +1,5 @@
 javascript:(function() {
-    var username = prompt("Enter the new username: ");
+    var username = prompt("Enter the username to give everyone: ");
     var pfp = prompt("Enter the image URL for the new profile picture: ");
 
     var chatNames = document.getElementsByClassName("styles__chatName___F1Z4P-camelCase");
