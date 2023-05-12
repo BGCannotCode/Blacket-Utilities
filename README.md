@@ -17,3 +17,7 @@
  * [Mass Friend Request](Global/FriendRequest.js) // Sends friend requests to multiple people at once easily.<br>
  * [Custom Chat](Global/CustomChat.js) // Changes everyone's chat username and profile picture to a name/image of your choice.<br>
  * [Blooks Info](Global/BlooksInfo.js) // Shows the missing and obtained Blooks a user has in Console in a list.<br>
+  
+  
+ * [Custom Themes](Global/CustomThemes.js) // Allows the user to pick any color of their choice as a Blacket theme.<br>
+   * This script requires TamperMonkey. All you need to do is install TamperMonkey as a chrome extension, copy the code, save it and run it on Blacket. See my video (Blooket God) on it for more info.
