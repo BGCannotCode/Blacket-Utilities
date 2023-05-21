@@ -1,13 +1,9 @@
-var elements = document.getElementsByTagName("*");
-for(var i = 0; i < elements.length; i++) {
-  elements[i].style.backgroundColor = getRandomColor();
-}
+const originalLog = console.log;
 
-function getRandomColor() {
-  var letters = "0123456789ABCDEF";
-  var color = "#";
-  for(var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
+console.log = function() {
+  // Check
+  if (arguments.length === 1 && (arguments[0].type === 'heartbeat' || arguments[0].type === 'chat')) {
+    return;
   }
-  return color;
+  originalLog.apply(console, arguments);
 }
